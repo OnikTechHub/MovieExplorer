@@ -8,9 +8,10 @@ const Navbar = ({ currentPage = 'home', setCurrentPage = () => {} }) => {
         {/* Logo / Brand Name */}
         <div 
           onClick={() => setCurrentPage('home')} 
-          className="text-xl sm:text-2xl font-bold tracking-wider flex items-center gap-2 cursor-pointer select-none hover:opacity-90 transition-opacity"
+          className="text-xl sm:text-2xl font-bold tracking-wider flex items-center gap-1.5 cursor-pointer select-none hover:opacity-90 transition-opacity"
         >
-          <span>🎬</span> <span className="text-amber-400">MovieExplorer</span>
+          <span className="text-white font-extrabold tracking-tight">Movie</span>
+          <span className="text-amber-400 font-extrabold tracking-tight">Explorer</span>
         </div>
 
         {/* Navigation Links */}

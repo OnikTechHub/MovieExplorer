@@ -8,8 +8,9 @@ const Footer = () => {
           
           {/* Brand Logo & Description */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="text-xl font-bold tracking-wider flex items-center gap-2 text-white mb-1">
-              <span>🎬</span> <span className="text-amber-400">MovieExplorer</span>
+            <div className="text-xl font-bold tracking-wider flex items-center gap-1.5 text-white mb-1">
+              <span className="font-extrabold">Movie</span>
+              <span className="text-amber-400 font-extrabold">Explorer</span>
             </div>
             <p className="text-xs text-slate-500">
               Discover and explore your favorite movies anytime, anywhere.
