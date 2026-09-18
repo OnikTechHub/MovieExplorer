@@ -1,16 +1,26 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fully responsive React application designed to explore, search, and discover thousands of movies and TV shows using the TVMaze API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Cinematic Landing Page**: Features a responsive Navbar, an attractive Hero Banner with smooth Framer Motion animations, and a clean Footer.
+- **Dynamic Search & Filtering**: Real-time movie search functionality and category/genre-based filtering.
+- **Interactive Movie Details Modal**: Pop-up modal displaying rich information including poster, ratings, release year, genre tags, summary, and official site links.
+- **Persistent State**: Maintains user navigation state across browser reloads using local storage/state management.
+- **Dark Cinematic Theme**: Built with Tailwind CSS following high-end UI/UX standards.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Core Library**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Data Source**: TVMaze API (`https://api.tvmaze.com/shows` & search endpoints)
 
-## Expanding the Oxlint configuration
+## 📦 Getting Started Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/OnikTechHub/MovieExplorer.git](https://github.com/OnikTechHub/MovieExplorer.git)
