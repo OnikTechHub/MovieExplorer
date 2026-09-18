@@ -6,7 +6,7 @@ A modern, high-performance React web application for searching, exploring, and d
 
 ## 🌐 Live Demo
 
-🔗 **[Live Demo on Vercel](https://your-movie-explorer-demo.vercel.app)** *(Replace with your deployment URL)*
+🔗 **[Live Demo on Vercel](https://movie-explorer-theta-blue.vercel.app/)** *(Replace with your deployment URL)*
 
 ---
 
@@ -47,34 +47,6 @@ A modern, high-performance React web application for searching, exploring, and d
 | **Tailwind CSS** | Utility-first styling with custom dark theme |
 | **Framer Motion** | Micro-interactions and transition animations |
 | **TVMaze API** | RESTful show and movie database |
-
----
-
-## 📁 Project Structure
-
-```text
-MovieExplorer/
-├── public/                 # Static assets
-├── src/
-│   ├── assets/             # Images and media files
-│   ├── components/         # Reusable UI components
-│   │   ├── Footer.jsx      # Application footer
-│   │   ├── Hero.jsx        # Landing page hero banner
-│   │   ├── MovieCard.jsx   # Individual show card
-│   │   ├── MovieModal.jsx  # Interactive details popup modal
-│   │   └── Navbar.jsx      # Navigation bar with brand and links
-│   ├── hooks/
-│   │   └── useMovies.js    # Custom hook for fetching and filtering shows
-│   ├── pages/
-│   │   └── MovieListing.jsx# Main movie explorer and search page
-│   ├── App.jsx             # Top-level state-based page router
-│   ├── index.css           # Tailwind directives & base styles
-│   └── main.jsx            # Application entry point
-├── package.json            # Project dependencies and build scripts
-├── tailwind.config.js      # Tailwind CSS configuration
-├── vercel.json             # Vercel SPA rewrite routing configuration
-└── vite.config.js          # Vite configuration
-```
 
 ---
 
